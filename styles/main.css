@@ -1,0 +1,39 @@
+main {
+  
+    
+
+    max-width: 39.1875rem;
+    width: 100%;
+    margin-inline: auto;
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    gap: 2.5rem;
+
+    & .title {
+        display: flex;
+        flex-direction: inherit;
+        gap: 1rem;
+    }
+
+    & .input-wrapper {
+        display: grid;
+
+        grid-template-columns: 3fr 1fr;
+        column-gap: 1rem;
+
+    }
+}
+
+@media (width <= 45rem) {
+    main {
+        max-width: 19.6875rem;
+
+        & .input-wrapper{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+    }
+}
