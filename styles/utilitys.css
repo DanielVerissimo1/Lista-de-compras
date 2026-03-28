@@ -13,11 +13,11 @@ h1 {
     grid-area: input;
     all: unset;
 
-    background-color: var(--absolut-white);
+    background-color: var(--absolut-white) !important;
     border: 2px solid var(--border-primary);
     font: var(--link);
     padding: .75rem 1rem;
-    border-radius: .75rem;
+    border-radius: .75rem !important;
 
     &:hover {
         border: 2px solid var(--border-hover);
